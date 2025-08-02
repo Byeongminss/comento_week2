@@ -13,6 +13,8 @@ Z = gray.astype(np.float32)
 
 points_3d = np.dstack((X, Y, Z))
 
+cv2.imwrite("output_image.jpg", depth_map)
+
 cv2.imshow('Depth Map', depth_map)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

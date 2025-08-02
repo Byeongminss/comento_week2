@@ -2,7 +2,7 @@
 
 # unit test code입니다.
 
-<!-- import numpy as np
+import numpy as np
 import pytest
 import cv2
 
@@ -22,11 +22,11 @@ def test_generate_depth_map():
     assert isinstance(depth_map, np.ndarray), "출력 데이터 타입이 ndarray가 아닙니다."
 
 if __name__ == "__main__": 
-    pytest.main() -->
+    pytest.main()
 
 # 실행 결과입니다.
 
-<!-- $ pytest test_case.py
+$ pytest test_case.py
 ==================================== test session starts =====================================
 platform win32 -- Python 3.13.5, pytest-8.4.1, pluggy-1.6.0
 rootdir: C:\Users\minkb\comento_week2
@@ -34,7 +34,7 @@ collected 1 item
 
 test_case.py .                                                                          [100%]
 
-===================================== 1 passed in 0.09s ====================================== -->
+===================================== 1 passed in 0.09s ======================================
 
 # 변환 결과 이미지
 
